@@ -1,11 +1,11 @@
 ---
-layout: mermaid
+layout: default
 title: MÓDULO 0
 ---
 
 ## MÓDULO 0 — Introducción y contexto
 
-> Volver al [inicio](index.md)
+> Volver al [inicio](./)
 
 Antes de arrancar con herramientas y demos, necesitamos pararnos un momento en lo básico: **¿qué es realmente esto que todo el mundo llama IA?** Porque hay mucho ruido, mucho hype, y también mucho miedo innecesario. Y la mejor forma de usarla bien es entender, aunque sea a grandes rasgos, qué hay debajo.
 

@@ -1,11 +1,11 @@
 ---
-layout: mermaid
+layout: default
 title: MÓDULO 6
 ---
 
 ## MÓDULO 7 — Cierre y plan de acción
 
-> Volver al [inicio](index.md)
+> Volver al [inicio](./)
 
 Llegamos al final. Y el final de un workshop no es cuando termina la explicación, es cuando decides qué vas a hacer diferente mañana. Porque la IA no cambia nada si se queda en el taller. Cambia cuando la usas en tu trabajo real, esta semana.
 

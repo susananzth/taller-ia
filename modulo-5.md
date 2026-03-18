@@ -1,11 +1,11 @@
 ---
-layout: mermaid
+layout: default
 title: MÓDULO 5
 ---
 
 ## MÓDULO 5 — Casos de uso por perfil
 
-> Volver al [inicio](index.md)
+> Volver al [inicio](./)
 
 Llegamos al módulo más personal del workshop. Hasta acá aprendimos herramientas, estructuras y conceptos. Ahora el ejercicio es conectar todo eso con **tu trabajo real, hoy**.
 

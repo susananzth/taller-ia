@@ -1,11 +1,11 @@
 ---
-layout: mermaid
+layout: default
 title: MÓDULO 1
 ---
 
 ## MÓDULO 1 — El mapa general: qué IA usar para qué
 
-> Volver al [inicio](index.md)
+> Volver al [inicio](./)
 
 Ya sabemos qué es la IA. Ahora viene la pregunta práctica: **¿cuál uso?** Esta es la duda que más parálisis genera al principio, porque todas parecen hacer lo mismo. La respuesta corta es que no son lo mismo, aunque se parezcan. Cada una nació con una filosofía distinta y eso se nota cuando las usas de verdad.
 

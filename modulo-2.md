@@ -1,11 +1,11 @@
 ---
-layout: mermaid
+layout: default
 title: MÓDULO 2
 ---
 
 ## MÓDULO 2 — El arte del prompt: cómo hablarle a una IA
 
-> Volver al [inicio](index.md)
+> Volver al [inicio](./)
 
 Ya sabemos qué es la IA y cuál usar para qué. Ahora viene la habilidad que más diferencia a quien saca resultados reales de quien se frustra y abandona: **saber pedirle las cosas**. A eso se le llama prompt engineering, que en términos simples significa escribir instrucciones bien construidas.
 

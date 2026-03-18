@@ -1,11 +1,11 @@
 ---
-layout: mermaid
+layout: default
 title: MÓDULO 6
 ---
 
 ## MÓDULO 6 — Límites, errores comunes y buenas prácticas
 
-> Volver al [inicio](index.md)
+> Volver al [inicio](./)
 
 Llegamos al módulo que más gente se salta cuando aprende IA por su cuenta, y que más falta hace. Saber usar la herramienta es importante. Saber **cuándo no confiar en ella** es igual de importante. Este módulo no es para asustar sino para que salgan con criterio: saber qué le puedes pedir, qué debes verificar y qué nunca debes hacer.
 

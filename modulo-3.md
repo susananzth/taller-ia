@@ -1,11 +1,11 @@
 ---
-layout: mermaid
+layout: default
 title: MÓDULO 3
 ---
 
 ## MÓDULO 3 — Configurar contexto: que la IA te conozca
 
-> Volver al [inicio](index.md)
+> Volver al [inicio](./)
 
 Hasta ahora aprendimos qué es la IA, cuál usar para qué, y cómo hablarle bien. Pero hay un problema que aparece cuando ya la usas un poco: **cada conversación empieza desde cero**. Cada vez que abres un chat nuevo, la IA no sabe quién eres, qué haces, qué nivel tienes, qué no te gusta que te digan. Tienes que repetirte.
 

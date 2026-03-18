@@ -1,5 +1,5 @@
 ---
-layout: mermaid
+layout: default
 title: MÓDULO 4
 ---
 
@@ -9,7 +9,7 @@ Tengo todo lo que necesito. Acá va el módulo completo:
 
 ## MÓDULO 4 — Recorrido por herramientas clave de cada IA
 
-> Volver al [inicio](index.md)
+> Volver al [inicio](./)
 
 Ya sabemos qué IA usar para qué, cómo hablarles bien y cómo configurarlas para que nos conozcan. Ahora toca el recorrido más práctico del workshop: **ver en vivo qué hace cada herramienta y para qué sirve exactamente cada función**.
 
