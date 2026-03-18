@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Taller IA
+title: Taller de IA
 ---
 
-# 🚀 Workshop de Inteligencia Artificial Práctica
+## 🚀 Workshop de Inteligencia Artificial Práctica
 
-## Contenido
+### Contenido
 
 - [MÓDULO 0](modulo-0.md).
 - [MÓDULO 1](modulo-1.md).

@@ -1,6 +1,6 @@
-<!-- _layouts/default.html -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
@@ -9,12 +9,17 @@
   <!-- Mermaid -->
   <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
   <script>
-    mermaid.initialize({ startOnLoad: true });
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: "forest"
+    });
   </script>
 </head>
+
 <body>
   <section class="page-content">
     {{ content }}
   </section>
 </body>
+
 </html>
