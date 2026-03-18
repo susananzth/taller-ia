@@ -9,7 +9,7 @@ title: MÓDULO 1
 
 Ya sabes qué es la IA. Ahora viene la pregunta práctica: **¿cuál uso?** Esta es la duda que más parálisis genera al principio, porque todas parecen hacer lo mismo. La respuesta corta es que no son lo mismo, aunque se parezcan. Cada una nació con una filosofía distinta y eso se nota cuando las usas de verdad.
 
-Vamos a ver el mapa general hoy, y en los módulos siguientes vamos a profundizar en cada herramienta. Esto es solo el gran panorama para orientarse.
+Vamos a ver el mapa general, y en los módulos siguientes vamos a profundizar en cada herramienta. Esto es solo el gran panorama para orientarse.
 
 > 💡 **Frase clave:** *"No existe la IA perfecta. Existe la IA correcta para cada tarea."*
 
@@ -134,7 +134,7 @@ flowchart TD
 
 ### 📊 Diagrama Mermaid — Comparativa de fortalezas por perfil
 
-Este diagrama muestra qué IA encaja mejor con cada participante del workshop. Útil para proyectar durante el ejercicio final del módulo:
+Este diagrama muestra qué IA encaja mejor con cada participante del workshop.
 
 <div class="mermaid">
 flowchart LR

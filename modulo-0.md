@@ -45,7 +45,7 @@ Aquí estan las que vamos a ver y quiénes están detrás:
 | **Perplexity** | Perplexity AI | No es un modelo propio, sino un buscador potenciado con IA. Su diferencial: siempre cita fuentes verificables. |
 | **NotebookLM** | Google | No es un chat general. Es una herramienta para analizar *tus* documentos. Solo sabe lo que tú le das. |
 
-**La pregunta que siempre va a aparecer es:** *"¿Cuál es la mejor?"* Y la respuesta honesta es: **depende de para qué**. Durante el workshop vamos a ver exactamente eso. Hoy al terminar, cada una va a saber cuál le conviene para su trabajo.
+**La pregunta que siempre va a aparecer es:** *"¿Cuál es la mejor?"* Y la respuesta honesta es: **depende de para qué**. Durante el workshop vas a ver exactamente eso. Hoy al terminar, cada una va a saber cuál le conviene para su trabajo.
 
 ---
 
@@ -60,8 +60,6 @@ Guarda esa lista. Al final del workshop vas a volver a ella y va a ser notorio c
 ---
 
 ### 📊 Diagrama Mermaid — Mapa mental de las IAs
-
-Este diagrama sirve para la diapositiva 4 o como material impreso/proyectado durante la explicación:
 
 <div class="mermaid">
 mindmap
@@ -96,8 +94,6 @@ mindmap
 ---
 
 ### 📊 Diagrama Mermaid — Cómo funciona una IA de lenguaje
-
-Este diagrama es útil para ilustrar la explicación de "qué es la IA" sin tecnicismos:
 
 <div class="mermaid">
 flowchart LR

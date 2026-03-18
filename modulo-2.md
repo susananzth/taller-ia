@@ -275,7 +275,7 @@ flowchart TD
 
 ### 📊 Diagrama Mermaid — El ciclo de iteración del prompt
 
-Este diagrama es clave para que entiendan que el proceso es una conversación, no un disparo único:
+Este diagrama es clave para que entiendas que el proceso es una conversación, no un disparo único:
 
 <div class="mermaid">
 flowchart LR
