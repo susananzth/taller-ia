@@ -1,5 +1,5 @@
 remote_theme: pages-themes/time-machine@v0.2.0
-
+baseurl: "/taller"
 plugins:
   - jekyll-remote-theme
 
