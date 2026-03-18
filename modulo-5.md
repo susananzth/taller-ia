@@ -7,11 +7,11 @@ title: MÓDULO 5
 
 > Volver al [inicio](./)
 
-Llegamos al módulo más personal del workshop. Hasta acá aprendimos herramientas, estructuras y conceptos. Ahora el ejercicio es conectar todo eso con **tu trabajo real, hoy**.
+Llegamos al módulo más personal del workshop. Hasta acá aprendiste herramientas, estructuras y conceptos. Ahora el ejercicio es conectar todo eso con **tu trabajo real, hoy**.
 
 No hay respuesta correcta ni incorrecta. El objetivo es que salgas con al menos **una tarea real de tu trabajo que puedas delegar o acelerar con IA esta semana**.
 
-> 💡 **Regla del módulo:** Todo lo que hagamos aquí parte de situaciones reales. Nada hipotético.
+> 💡 **Regla del módulo:** Todo lo que hagas aquí parte de situaciones reales. Nada hipotético.
 
 ---
 
@@ -27,7 +27,7 @@ La organización de un evento deportivo implica coordinar múltiples variables: 
 **Herramienta:** Claude (Artefacto) o ChatGPT (Canvas)
 **Por qué:** Ambas permiten trabajar el documento de forma iterativa sin perder el hilo. Claude genera el artefacto en un panel lateral que puedes editar sección por sección; Canvas de ChatGPT permite seleccionar partes específicas del timeline y mejorarlas sin tocar el resto.
 
-**Prompt de arranque para hacer en vivo:**
+**Idea de prompt de arranque:**
 
 ```markdown
 Actúa como una coordinadora de producción de eventos deportivos

@@ -39,7 +39,9 @@ No todas son obligatorias en todos los casos, pero conocerlas te da el control t
 Le dices a la IA *desde qué posición* debe responderte. Esto cambia radicalmente el tono, el vocabulario y el nivel de detalle.
 
 > *"Actúa como un experto en logística de eventos deportivos..."*
+
 > *"Eres un consultor financiero con experiencia en pequeños negocios..."*
+
 > *"Actúa como un ingeniero DevOps senior con experiencia en banca..."*
 
 Asignar un rol específico activa patrones de lenguaje, estructura y tono apropiados para ese nicho. La IA adapta automáticamente el vocabulario y los ejemplos según la expertise que le asignas.
@@ -50,7 +52,9 @@ Asignar un rol específico activa patrones de lenguaje, estructura y tono apropi
 Le das la información de fondo que necesita para no inventar suposiciones. Quién eres tú, cuál es la situación, qué ya existe o ya se sabe.
 
 > *"Estoy organizando un evento para 300 personas en Lima, presupuesto de 5,000 soles..."*
+
 > *"Tengo una tienda física de accesorios, llevo 2 años en el negocio, no tengo presencia digital aún..."*
+
 > *"Este es el mensaje de error que me apareció en el servidor a las 3am: [pegar el error]..."*
 
 ---
@@ -59,7 +63,9 @@ Le das la información de fondo que necesita para no inventar suposiciones. Qui�
 La instrucción concreta de lo que necesitas. Verbo + objeto + alcance.
 
 > *"Dame una lista de 10 proveedores..."*
+
 > *"Redacta 3 versiones del mismo caption..."*
+
 > *"Explica qué significa este error y cuáles son las 3 causas más probables..."*
 
 ---
@@ -68,9 +74,13 @@ La instrucción concreta de lo que necesitas. Verbo + objeto + alcance.
 Cómo quieres que te entregue la respuesta. Esto es muy subestimado y marca enorme diferencia en la utilidad del resultado.
 
 > *"En una tabla con columnas: nombre / descripción / costo"*
+
 > *"En pasos numerados, máximo 10"*
+
 > *"Como un correo formal listo para enviar"*
+
 > *"En bullet points cortos, sin introducción ni cierre"*
+
 > *"Con código comentado línea por línea"*
 
 ---
@@ -79,8 +89,11 @@ Cómo quieres que te entregue la respuesta. Esto es muy subestimado y marca enor
 Lo que **no** quieres, los límites, el tono, el nivel de complejidad.
 
 > *"No uses jerga técnica, el lector no tiene experiencia en tecnología"*
+
 > *"Máximo 200 palabras"*
+
 > *"No incluyas opciones que requieran presupuesto mayor a 1,000 soles"*
+
 > *"Evita recomendaciones genéricas, quiero cosas que se puedan hacer esta semana"*
 
 ---
@@ -89,7 +102,9 @@ Lo que **no** quieres, los límites, el tono, el nivel de complejidad.
 Mostrarle un ejemplo del tipo de resultado que buscas es la forma más rápida de calibrarla. Un buen prompt es como una buena pregunta: entre más claro, preciso y humano seas, mejor será la respuesta.
 
 > *"Algo parecido a esto: [pegar ejemplo de un post que te gustó]"*
+
 > *"El tono que busco es como el de esta descripción: [ejemplo]"*
+
 > *"Quiero una tabla así: Nombre | Costo | Tiempo | Observaciones"*
 
 ---
@@ -176,14 +191,11 @@ Esto la convierte en colaboradora activa del proceso, no solo ejecutora de instr
 *Bueno:*
 
 ```markdown
-Actúa como una especialista en producción de eventos deportivos.
-Estoy organizando un torneo de fútbol amateur en Lima para 300
-participantes, presupuesto total de 8,000 soles, al aire libre,
-público mixto de 20-45 años. Necesito 8 ideas de activaciones
-y entretenimiento para los momentos entre partidos. Preséntalas
-en una tabla con: nombre de la actividad | descripción en 2 líneas
-| costo estimado | dificultad de implementación (baja/media/alta).
-No incluyas actividades que requieran instalaciones especiales.
+- Actúa como una especialista en producción de eventos deportivos.
+- Estoy organizando un torneo de fútbol amateur en Lima para 300 participantes, presupuesto total de 8,000 soles, al aire libre, público mixto de 20-45 años. 
+- Necesito 8 ideas de activaciones y entretenimiento para los momentos entre partidos. 
+- Preséntalas en una tabla con: nombre de la actividad | descripción en 2 líneas | costo estimado | dificultad de implementación (baja/media/alta).
+- No incluyas actividades que requieran instalaciones especiales.
 ```
 
 ---
@@ -195,14 +207,12 @@ No incluyas actividades que requieran instalaciones especiales.
 *Bueno:*
 
 ```markdown
-Eres una estratega de contenido para redes sociales de marcas
-deportivas. Crea 3 opciones de caption para Instagram para
+- Eres una estratega de contenido para redes sociales de marcas deportivas.
+- Crea 3 opciones de caption para Instagram para
 acompañar una foto de premiación de un torneo de atletismo.
-El tono debe ser emotivo y energético, orientado a jóvenes
-deportistas de 18-30 años. Cada opción: máximo 120 caracteres
-en el cuerpo del texto + 5 hashtags relevantes al final.
-Las 3 opciones deben tener tonos distintos: uno inspiracional,
-uno celebratorio y uno orientado a comunidad.
+- El tono debe ser emotivo y energético, orientado a jóvenes deportistas de 18-30 años.
+- Cada opción: máximo 120 caracteres en el cuerpo del texto + 5 hashtags relevantes al final.
+- Las 3 opciones deben tener tonos distintos: uno inspiracional, uno celebratorio y uno orientado a comunidad.
 ```
 
 ---
@@ -214,14 +224,11 @@ uno celebratorio y uno orientado a comunidad.
 *Bueno:*
 
 ```markdown
-Soy dueña de una tienda física de accesorios de moda en Lima
-(Miraflores). Mi clienta típica es mujer de 25-40 años que
-compra 1 vez al mes, ticket promedio de 80 soles. Quiero
-aumentar ese ticket promedio a 120 soles sin bajar precios.
-Dame 5 estrategias concretas de venta en tienda física que
-pueda implementar esta semana, sin inversión mayor a 200 soles.
-Para cada estrategia: qué hacer | cómo implementarlo | por qué
-funciona. Sin teoría, solo acciones concretas.
+- Soy dueña de una tienda física de accesorios de moda en Lima (Miraflores).
+- Mi clienta típica es mujer de 25-40 años que compra 1 vez al mes, ticket promedio de 80 soles.
+- Quiero aumentar ese ticket promedio a 120 soles sin bajar precios.
+- Dame 5 estrategias concretas de venta en tienda física que pueda implementar esta semana, sin inversión mayor a 200 soles.
+- Para cada estrategia: qué hacer | cómo implementarlo | por qué funciona. Sin teoría, solo acciones concretas.
 ```
 
 ---
@@ -233,16 +240,15 @@ funciona. Sin teoría, solo acciones concretas.
 *Bueno:*
 
 ```markdown
-Actúa como un ingeniero DevOps senior con experiencia en
-infraestructura bancaria. Este es un mensaje de error que
-apareció en nuestros logs a las 3:17am:
-[PEGAR AQUÍ EL ERROR EXACTO]
-Necesito que me expliques:
-1. Qué significa este error en términos simples
-2. Las 3 causas más probables ordenadas de más a menos común
-3. Qué información adicional debo revisar para confirmar la causa
-4. Los pasos de diagnóstico recomendados
-Responde en formato numerado. No asumas acceso a sistemas
+- Actúa como un ingeniero DevOps senior con experiencia en
+infraestructura bancaria.
+- Este es un mensaje de error que apareció en nuestros logs a las 3:17am: [PEGAR AQUÍ EL ERROR EXACTO]
+- Necesito que me expliques:
+    1. Qué significa este error en términos simples
+    2. Las 3 causas más probables ordenadas de más a menos común
+    3. Qué información adicional debo revisar para confirmar la causa
+    4. Los pasos de diagnóstico recomendados
+- Responde en formato numerado. No asumas acceso a sistemas
 específicos, solo dame el razonamiento técnico.
 ```
 

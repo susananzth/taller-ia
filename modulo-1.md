@@ -7,7 +7,7 @@ title: MÓDULO 1
 
 > Volver al [inicio](./)
 
-Ya sabemos qué es la IA. Ahora viene la pregunta práctica: **¿cuál uso?** Esta es la duda que más parálisis genera al principio, porque todas parecen hacer lo mismo. La respuesta corta es que no son lo mismo, aunque se parezcan. Cada una nació con una filosofía distinta y eso se nota cuando las usas de verdad.
+Ya sabes qué es la IA. Ahora viene la pregunta práctica: **¿cuál uso?** Esta es la duda que más parálisis genera al principio, porque todas parecen hacer lo mismo. La respuesta corta es que no son lo mismo, aunque se parezcan. Cada una nació con una filosofía distinta y eso se nota cuando las usas de verdad.
 
 Vamos a ver el mapa general hoy, y en los módulos siguientes vamos a profundizar en cada herramienta. Esto es solo el gran panorama para orientarse.
 
@@ -64,9 +64,9 @@ No es un modelo propio en esencia: usa los mejores modelos disponibles (GPT, Cla
 **🟡 NotebookLM — La especialista en tus documentos**
 *"La IA que solo sabe lo que tú le dices, y eso es exactamente su punto fuerte."*
 
-NotebookLM es diferente a todas las demás porque no es un asistente general. Es una herramienta de conocimiento que trabaja exclusivamente con las fuentes que tú le das: PDFs, URLs, videos de YouTube, Google Docs. No busca en internet, no inventa de su base de entrenamiento. Si no está en tus documentos, no lo dice.
+NotebookLM es diferente a todas las demás porque no es un asistente general. Es una herramienta de conocimiento que trabaja exclusivamente con las fuentes que tú le das: PDFs, URLs, videos de YouTube, Google Docs. No busca en internet, no inventa de su base de entrenamiento. Si no está en tus documentos, no lo dice (a menos que le indiques fuentes de enlaces de internet).
 
-Su función más sorprendente es el **Audio Overview**: convierte tus documentos en un podcast de dos personas conversando sobre el tema. Es ideal para consumir información mientras te mueves.
+Su función más sorprendente es el **Audio Overview**: convierte tus documentos en un podcast de dos personas conversando sobre el tema. Es ideal para consumir información mientras te mueves. Pero también crea diapositivas, infografías, vídeos, cuestionarios y flash cards de las fuentes que le indiques.
 
 **Ideal para:** estudiar material propio, analizar contratos, preparar presentaciones, investigar con documentos internos, sintetizar fuentes de confianza.
 

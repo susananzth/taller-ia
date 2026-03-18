@@ -7,7 +7,7 @@ title: MÓDULO 6
 
 > Volver al [inicio](./)
 
-Llegamos al módulo que más gente se salta cuando aprende IA por su cuenta, y que más falta hace. Saber usar la herramienta es importante. Saber **cuándo no confiar en ella** es igual de importante. Este módulo no es para asustar sino para que salgan con criterio: saber qué le puedes pedir, qué debes verificar y qué nunca debes hacer.
+Llegaste al módulo que más gente se salta cuando aprende IA por su cuenta, y que más falta hace. Saber usar la herramienta es importante. Saber **cuándo no confiar en ella** es igual de importante. Este módulo no es para asustar sino para que salgan con criterio: saber qué le puedes pedir, qué debes verificar y qué nunca debes hacer.
 
 > 💡 **Frase clave:** *"La IA es tan confiable como tu capacidad de cuestionarla."*
 

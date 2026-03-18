@@ -3,19 +3,17 @@ layout: default
 title: MÓDULO 4
 ---
 
-Tengo todo lo que necesito. Acá va el módulo completo:
-
----
-
 ## MÓDULO 4 — Recorrido por herramientas clave de cada IA
 
 > Volver al [inicio](./)
 
-Ya sabemos qué IA usar para qué, cómo hablarles bien y cómo configurarlas para que nos conozcan. Ahora toca el recorrido más práctico del workshop: **ver en vivo qué hace cada herramienta y para qué sirve exactamente cada función**.
+Ya sabemos qué IA usar para qué, cómo hablarles bien y cómo configurarlas para que nos conozcan. Ahora toca el recorrido más práctico del workshop: **ver qué hace cada herramienta y para qué sirve exactamente cada función**.
 
-La estructura de este módulo es simple: por cada IA, revisamos sus herramientas más importantes y hacemos una demostración con un caso real del grupo. No vamos a cubrir todo, vamos a cubrir lo que más les sirve a ustedes.
+La estructura de este módulo es simple: por cada IA, revisamos sus herramientas más importantes. No voy a cubrir todo, voy a cubrir lo que creo que más te sirve.
 
 > 💡 **Regla del módulo:** Para cada herramienta que vemos, piensen: *"¿Para qué tarea mía usaría esto?"*. Esa es la pregunta que conecta la demo con la realidad.
+
+> ❗❗ Recomiendo tener abierta cada IA e ir exporando cada punto en simultáneo.
 
 ---
 
@@ -45,7 +43,7 @@ Lo que lo hace diferente de un chat normal: puedes seleccionar un párrafo espec
 - *Creadora de contenido:* escribir un guión para reels, ajustar el tono solo del gancho inicial.
 - *Emprendedora:* redactar las descripciones de todos sus productos en un solo documento, editarlas una por una.
 
-**Demo sugerida:** Abrir Canvas, escribir un texto corto, seleccionar una sección y pedirle que cambie solo el tono. Mostrar el historial de versiones.
+**Demo sugerida:** Abrir Canvas, escribir un texto corto, seleccionar una sección y pedirle que cambie solo el tono. Revisa el historial de versiones.
 
 ---
 
@@ -109,7 +107,7 @@ Una diferencia notable frente a la competencia: en comparaciones directas usando
 
 Los resultados no son solo texto: Gemini genera páginas web interactivas, cuestionarios de aprendizaje y resúmenes de audio (podcasts) con voces masculinas y femeninas como formatos de salida del informe.
 
-**Demo sugerida:** Lanzar una investigación en vivo mientras se sigue con el módulo. Al terminar el recorrido, el informe ya puede estar listo.
+**Demo sugerida:** Inicia una investigación, como tarda varios minutos, puedes avanzar en el módulo mientras se genera. Al terminar el módulo, el informe ya puede estar listo.
 
 **Casos de uso:**
 
@@ -166,13 +164,13 @@ Un panel lateral donde Claude genera contenido que vive separado del chat. No es
 
 La diferencia clave con Canvas de ChatGPT: los Artefactos de Claude pueden ser **aplicaciones interactivas simples**. Claude puede generarte una calculadora, un formulario, un tablero de seguimiento o una visualización de datos que funciona en el navegador, sin que sepas programar.
 
-**Demo sugerida:** Pedirle a Claude que cree un artefacto con la checklist de un evento (para la organizadora) o una tabla comparativa de productos (para la emprendedora). Mostrar cómo el artefacto vive separado del chat y se puede iterar.
+**Demo sugerida:** Pídele a Claude que cree un artefacto con la checklist de un evento (para la organizadora) o una tabla comparativa de productos (para la emprendedora). Observa cómo el artefacto vive separado del chat y se puede iterar.
 
 ---
 
 #### ⚡ Skills
 
->Más detallado en el módulo 3B
+> Más detallado en el módulo 3B
 
 Flujos de trabajo empaquetados que Claude detecta y aplica automáticamente según la tarea. El diferencial más claro de Claude frente al resto en 2026.
 
@@ -229,7 +227,7 @@ Si estás trabajando en un proyecto que durará semanas, como una tesis, un info
 
 Genera una página web simple y compartible a partir de una investigación. Útil para: presentar un informe a alguien sin que tenga que usar Perplexity, compartir una comparativa de opciones en formato visual.
 
-**Demo sugerida:** Buscar algo concreto para el grupo ("proveedores de sonido para eventos en Lima", "precios de venta de carteras de cuero en tiendas físicas Lima 2026") y mostrar las fuentes en tiempo real. Luego activar Deep Research en vivo.
+**Demo sugerida:** Busca algo concreto como ("proveedores de sonido para eventos en Lima", "precios de venta de carteras de cuero en tiendas físicas Lima 2026") y revisa las fuentes en tiempo real. Luego activa el Deep Research.
 
 ---
 
@@ -269,7 +267,7 @@ Casos de uso concretos:
 
 Cada respuesta de NotebookLM incluye una referencia al fragmento exacto del documento del que proviene. Puedes hacer clic y ver el texto original. Esto es invaluable para: verificar contratos, preparar argumentos con respaldo, estudiar material técnico con precisión.
 
-**Demo sugerida:** Cargar el PDF de un documento real del grupo (puede ser algo simple, como un reglamento descargado o las condiciones de un proveedor), hacer una pregunta específica y mostrar cómo cita el documento. Luego iniciar la generación del Audio Overview.
+**Demo sugerida:** Cargar el PDF de un documento real (puede ser algo simple, como un reglamento descargado o las condiciones de un proveedor), haz una pregunta específica y mira cómo cita el documento. Luego inicia la generación del Audio Overview, una presentación o una infografía.
 
 ---
 

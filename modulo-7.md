@@ -7,7 +7,7 @@ title: MÓDULO 6
 
 > Volver al [inicio](./)
 
-Llegamos al final. Y el final de un workshop no es cuando termina la explicación, es cuando decides qué vas a hacer diferente mañana. Porque la IA no cambia nada si se queda en el taller. Cambia cuando la usas en tu trabajo real, esta semana.
+Llegaste al final. Y el final de un workshop no es cuando termina la explicación, es cuando decides qué vas a hacer diferente mañana. Porque la IA no cambia nada si se queda en el taller. Cambia cuando la usas en tu trabajo real, esta semana.
 
 > 💡 **Frase de cierre:** *"No necesitas dominarla toda. Necesitas empezar con una tarea, con una herramienta, esta semana."*
 

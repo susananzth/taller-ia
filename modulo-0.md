@@ -7,7 +7,7 @@ title: MÓDULO 0
 
 > Volver al [inicio](./)
 
-Antes de arrancar con herramientas y demos, necesitamos pararnos un momento en lo básico: **¿qué es realmente esto que todo el mundo llama IA?** Porque hay mucho ruido, mucho hype, y también mucho miedo innecesario. Y la mejor forma de usarla bien es entender, aunque sea a grandes rasgos, qué hay debajo.
+Antes de arrancar con herramientas y demos, necesitas parar un momento en lo básico: **¿qué es realmente esto que todo el mundo llama IA?** Porque hay mucho ruido, mucho hype, y también mucho miedo innecesario. Y la mejor forma de usarla bien es entender, aunque sea a grandes rasgos, qué hay debajo.
 
 ### Parte 1: ¿Qué es la IA y qué no es?
 
@@ -27,17 +27,15 @@ Imagínalo así: es como un estudiante que leyó toda la biblioteca del mundo, p
 - ✅ Una herramienta que mejora drásticamente con instrucciones precisas.
 - ✅ Un amplificador: hace más grande lo que tú ya sabes hacer.
 
-> 💡 **Frase clave para que recuerden:** *"La IA no reemplaza tu criterio. Lo amplifica. Pero para amplificarlo necesita que tú lo tengas primero."*
+> 💡 **Frase clave para que recuerdes:** *"La IA no reemplaza tu criterio. Lo amplifica. Pero para amplificarlo necesita que tú lo tengas primero."*
 
 ---
 
 ### Parte 2: ¿Por qué hay tantas y en qué se diferencian?
 
-**Lo que puedes decirles:**
-
 No existe una sola IA porque no existe una sola empresa ni una sola filosofía de cómo construirla. Cada una viene de un lugar distinto y eso se nota en cómo responde, en qué es buena y en qué falla.
 
-Aquí van las que vamos a ver hoy y quiénes están detrás:
+Aquí estan las que vamos a ver y quiénes están detrás:
 
 | Herramienta | Quién la hace | Su origen / filosofía |
 | --- | --- | --- |
@@ -53,11 +51,11 @@ Aquí van las que vamos a ver hoy y quiénes están detrás:
 
 ### Parte 3: Ejercicio de apertura
 
-**Instrucciones para el grupo:**
+**Instrucciones:**
 
-> Tomen una hoja o abran el bloc de notas de su celular. Escriban de 3 a 5 tareas concretas de su trabajo que les quitan tiempo, que hacen de forma repetitiva, o que les cuestan porque no saben bien cómo empezar. No importa si saben o no cómo la IA las podría ayudar. Solo lístelas.
+> Toma una hoja o abran el bloc de notas en tu celular. Escribe de 3 a 5 tareas concretas de tu trabajo que te quitan tiempo, que haces de forma repetitiva, o que te cuestan porque no sabes bien cómo empezar. No importa si sabes o no cómo la IA te podría ayudar. Solo lístalas.
 
-Guarden esa lista. Al final del workshop van a volver a ella y va a ser notorio cuántas de esas tareas la IA puede atacar directamente.
+Guarda esa lista. Al final del workshop vas a volver a ella y va a ser notorio cuántas de esas tareas la IA puede atacar directamente.
 
 ---
 

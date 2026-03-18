@@ -7,9 +7,9 @@ title: MÓDULO 3
 
 > Volver al [inicio](./)
 
-Hasta ahora aprendimos qué es la IA, cuál usar para qué, y cómo hablarle bien. Pero hay un problema que aparece cuando ya la usas un poco: **cada conversación empieza desde cero**. Cada vez que abres un chat nuevo, la IA no sabe quién eres, qué haces, qué nivel tienes, qué no te gusta que te digan. Tienes que repetirte.
+Hasta ahora aprendiste qué es la IA, cuál usar para qué, y cómo hablarle bien. Pero hay un problema que aparece cuando ya la usas un poco: **cada conversación empieza desde cero**. Cada vez que abres un chat nuevo, la IA no sabe del todo quién eres, qué haces, qué nivel tienes, qué no te gusta que te digan. Tienes que repetirte.
 
-La solución para eso es configurar contexto. Y este módulo parte de algo concreto: **lo que yo misma ya hago**, que es un ejemplo real de para qué sirve esto y cómo se puede llevar al extremo de forma útil.
+La solución para eso es configurar contexto.
 
 > 💡 **Frase clave:** *"Una IA sin contexto es un colaborador nuevo en su primer día. Una IA con contexto es alguien que ya te conoce y sabe cómo trabajas."*
 
@@ -24,7 +24,7 @@ Hay dos niveles distintos que vamos a ver, y se usan en combinación:
 - **Nivel 1 — Instrucciones globales:** aplican a *todas* las conversaciones. Definen el comportamiento base de la IA contigo.
 - **Nivel 2 — Contextos especializados:** aplican solo cuando entras a un espacio específico (Gema, Proyecto, GPT). Contexto profundo para un tema concreto.
 
-Los tres — instrucciones personalizadas, Proyectos y Gemas — hacen lo mismo esencialmente: recuerdan tus preferencias para que no tengas que repetirte. La diferencia está en el alcance y la profundidad.
+Los tres (instrucciones personalizadas, Proyectos y Gemas) hacen lo mismo esencialmente: recuerdan tus preferencias para que no tengas que repetirte. La diferencia está en el alcance y la profundidad.
 
 ---
 
@@ -46,17 +46,16 @@ Este es el tipo de instrucción que yo misma tengo configurada:
 
 ```markdown
 Quién soy:
-Soy desarrolladora de software en Lima, Perú. Tengo experiencia
-intermedia-avanzada en programación. También gestiono proyectos
-propios y tengo interés en marca personal.
+- Soy desarrolladora de software en Lima, Perú. 
+- Tengo experiencia intermedia-avanzada en programación.
+- También gestiono proyectos propios y tengo interés en marca personal.
 
 Cómo quiero que respondas:
 - Sé crítico y directo. No valides todo lo que te digo.
+- Respondeme en acento y jerga venezolana.
 - Si veo que una idea tiene problemas, dímelo con argumentos.
-- No empieces tus respuestas con frases como "¡Claro que sí!"
-  o "¡Qué buena pregunta!" o "¡Excelente idea!".
-- Si hago una afirmación que necesita verificación, usa fuentes
-  reales y cítamelas. No inventes datos.
+- No empieces tus respuestas con frases aduladoras.
+- Si hago una afirmación que necesita verificación, usa fuentes reales y cítamelas. No inventes datos.
 - Si no sabes algo, dilo. Prefiero "no sé" a una respuesta
   inventada con confianza.
 - Responde de forma concisa y directa. Sin relleno.
@@ -64,9 +63,7 @@ Cómo quiero que respondas:
 
 **¿Por qué esta instrucción importa?** Porque sin ella, la IA tiende a ser aduladora por defecto. Si le dices "quiero invertir en Bitcoin", sin instrucción global puede responderte con *"¡Wow, excelente decisión explorar las criptomonedas! Eres muy visionaria..."*. Con la instrucción configurada, te responde con datos, riesgos reales y fuentes verificables.
 
-**Novedad 2025-2026 en ChatGPT:** desde noviembre de 2025, los cambios en personalización se aplican instantáneamente a todos los chats, incluso a conversaciones ya abiertas. Antes era una limitación importante: los cambios solo funcionaban en chats nuevos. También hay controles deslizantes granulares en la sección "Características" que permiten ajustar individualmente aspectos como el nivel de calidez emocional, la directividad y el estilo de respuesta.
-
-**Un punto importante:** las instrucciones base conviven con los prompts específicos. Si en tu instrucción global dijiste "usa Python para ejemplos" pero en un chat específico escribes "muéstrame esto en JavaScript", la IA prioriza el prompt específico sobre la instrucción general.
+**Un punto importante:** las instrucciones base conviven con los prompts específicos. Si en tu instrucción global dijiste "responde en español" pero en un chat específico escribes "responde en inglés", la IA prioriza el prompt específico sobre la instrucción general.
 
 ---
 
@@ -74,9 +71,9 @@ Cómo quiero que respondas:
 
 Este es el nivel donde la personalización se vuelve realmente poderosa. En lugar de un contexto genérico para todo, creas espacios con contexto profundo para cada área de tu vida o trabajo.
 
-Los Proyectos de ChatGPT son espacios de trabajo donde puedes configurar instrucciones que aplican a todos los chats del proyecto y subir documentos de referencia de hasta 200,000 tokens. Son ideales para contextos diferenciados como "Desarrollo Web", "Content Marketing" o "Análisis de Datos". Las Gemas de Gemini son asistentes preconfigurados que creas para tareas específicas, viven en tu sidebar y se activan con un clic.
+Los Proyectos de ChatGPT son espacios de trabajo donde puedes configurar instrucciones que aplican a todos los chats del proyecto y subir documentos de referencia de hasta 200,000 tokens (token son letras o palabras, no es una unidad de medida tan concreta). Son ideales para contextos diferenciados como "Desarrollo Web", "Content Marketing" o "Análisis de Datos". Las Gemas de Gemini son asistentes preconfigurados que creas para tareas específicas, viven en tu sidebar y se activan con un clic.
 
-**Ejemplo real (el tuyo) — Gemas en Gemini:**
+**Ejemplo real, mis gemas :p — Gemas en Gemini:**
 
 Tengo varias Gemas, cada una con su propio contexto:
 
@@ -85,56 +82,40 @@ Tengo varias Gemas, cada una con su propio contexto:
 ```markdown
 Soy desarrolladora con conocimiento intermedio de Python.
 Uso principalmente pandas, FastAPI y scripts de automatización.
-Cuando me expliques código, siempre dime el POR QUÉ de cada
-decisión, no solo el cómo. Si hay varias formas de hacer algo,
-muéstrame la más limpia y explícame por qué las otras son
-peores o mejores según el contexto. No me des código sin
-explicación. Usa comentarios en el código.
+Cuando me expliques código, siempre dime el POR QUÉ de cada decisión, no solo el cómo. Si hay varias formas de hacer algo, muéstrame la más limpia y explícame por qué las otras son peores o mejores según el contexto. No me des código sin explicación. Usa comentarios en el código.
 ```
 
 #### 🥗 Gema: Recetas
 
 ```markdown
-Tengo gastritis crónica e insuficiencia venosa. Vivo en
-Surquillo, Lima. Cuando me des recetas:
-- Evita ingredientes que irriten la mucosa gástrica (picante,
-  ácidos fuertes, frituras, café).
-- Los ingredientes deben conseguirse en mercados o supermercados
-  de Surquillo (Wong, Plaza Vea, mercado La Hermelinda).
-- Preferencia por recetas rápidas de menos de 45 minutos.
-- Indica si algún ingrediente puede ser difícil de conseguir
-  y sugiere sustituto local.
+Vivo en Surquillo, Lima. Cuando me des recetas:
+- Evita ingredientes que irriten la mucosa gástrica (picante, ácidos fuertes, frituras).
+- Los ingredientes deben conseguirse en mercados o supermercados de Surquillo (Plaza Vea, Tottus, mercado La Hermelinda).
+- Preferencia por recetas rápidas de menos de 30 minutos.
+- Indica si algún ingrediente puede ser difícil de conseguir y sugiere sustituto local.
 ```
 
 **¿Por qué esto es poderoso?** Porque ahora cuando abro la Gema de Recetas y escribo simplemente "quiero algo con pollo para el almuerzo", la IA ya sabe todo lo demás. No tengo que repetirlo nunca más.
 
 ---
 
-### Parte 4: Bonus — Migrar tu contexto entre IAs
+### Parte 4: ¿Por qué esto importa?
 
-Esto es nuevo y muy útil si usan varias IAs. Claude tiene una herramienta para importar tu memoria y contexto desde ChatGPT o Gemini. El proceso consiste en copiar un prompt que Claude te provee en Ajustes → Capacidades → Iniciar importación, pegarlo en el chat de ChatGPT o Gemini para que genere un bloque con toda tu información guardada, y luego pegar esa respuesta de vuelta en Claude. No es automático, pero funciona y evita empezar desde cero si quieres probar una IA nueva sin perder el contexto que construiste.
-
----
-
-### Parte 5: ¿Por qué esto importa para cada una de ustedes?
-
-Presentación rápida — mostrar las ideas en pantalla:
-
-- **🏆 Organizadora de eventos:** Gema/Proyecto que sabe que trabajas con eventos deportivos en Lima, que manejas cierto rango de presupuesto, que necesitas siempre un timeline y un checklist como outputs.
-- **🎨 Creadora de contenido:** Gema que tiene cargado el manual de marca: colores, tipografías, tono de voz, red social principal, tipo de audiencia.
-- **🛍️ Emprendedora:** Gema de "asistente de negocio" que sabe qué vende, a qué público, en qué zonas opera, cuál es su ticket promedio.
+- **🏆 Organización de eventos:** Gema/Proyecto que sabe que trabajas con eventos deportivos en Lima, que manejas cierto rango de presupuesto, que necesitas siempre un timeline y un checklist como outputs.
+- **🎨 Creación de contenido:** Gema que tiene cargado el manual de marca: colores, tipografías, tono de voz, red social principal, tipo de audiencia.
+- **🛍️ Emprendedimiento:** Gema de "asistente de negocio" que sabe qué vende, a qué público, en qué zonas opera, cuál es su ticket promedio.
 - **🖥️ Monitora de servidores:** Proyecto con el stack tecnológico del banco, tipos de alertas frecuentes y procedimientos de respuesta. *(Con nota importante: nunca cargar datos sensibles reales, solo estructura y terminología.)*
 
 ---
 
-### Parte 6: Ejercicio
+### Parte 5: Ejercicio
 
 **Paso 1:** escribe un block de notas dos cosas:
 
 1. Tu **instrucción global** ideal: 3 a 5 puntos sobre quién eres y cómo quieres que te responda.
 2. Una **idea de contexto especializado**: para qué tema lo haría y qué información incluiría.
 
-**Paso 2:** configura en tu instrucción global en la IA de su preferencia.
+**Paso 2:** configura las instrucciones globales en la IA de su preferencia.
 
 ---
 
@@ -227,6 +208,8 @@ mindmap
 
 ## MÓDULO 3B — Skills: el siguiente nivel después del contexto
 
+> 💡 El futuro de los chats con contexto personalizado
+
 **¿Qué son los Skills?**
 Un Skill es un paquete completo que puede incluir instrucciones detalladas en formato Markdown, archivos de referencia como guías de marca, fórmulas o plantillas, y scripts que Claude puede ejecutar directamente. Todo empaquetado para que Claude lo lea automáticamente cuando detecta que es relevante para lo que le estás pidiendo.
 
@@ -251,7 +234,7 @@ Hay dos caminos: escribir los archivos tú mismo para tener control total, o cre
 - *Organizadora de eventos:* Skill con checklist estándar de eventos, proveedores frecuentes y estructura de timelines. Cada nuevo evento parte desde esa base.
 - *Monitora de servidores:* Skill con el stack tecnológico, tipos de alertas comunes y procedimientos de respuesta a incidentes del equipo.
 
-**Ejercicio:** Cada participante describe en palabras simples un flujo de trabajo repetitivo de su trabajo. Se usa esa descripción para pedirle a Claude en vivo que cree un Skill conversacionalmente.
+**Ejercicio:** describe en palabras simples un flujo de trabajo repetitivo de tu trabajo. Usa esa descripción para pedirle a Claude que cree un Skill para ti.
 
 **Material complementario:**
 
